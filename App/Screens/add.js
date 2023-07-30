@@ -1,8 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
-import { StyleSheet ,Text, View, Button,ScrollView, Image} from 'react-native';
+import { StyleSheet ,Text, View,ScrollView, Image} from 'react-native';
+import { Button } from 'react-native-paper';
 
-
+import Icon from 'react-native-vector-icons/Ionicons';
 export default function Aadd() {
 const colors = ['#F5CECE', '#FFE3D5', '#FFF5D1', '#F0FAEA', '#D4E9C6'];
 const labels = ['Horrible', 'Not Good', 'OK!', 'Good', 'Excellent'];
@@ -15,11 +16,25 @@ return(
 backgroundColor: colors[rate] 
 }}>
 
-<Text>{labels[rate]}</Text> 
+<Text size={90}>{labels[rate]}</Text> 
+<Icon
+            size={70}
+            name={Platform.OS === 'android' ? 'sad-outline' : 'ios-list'}></Icon>
 
-</View>
+ <Icon
+ size={70}
+ name={Platform.OS === 'android' ? 'happy-outline' : 'ios-list'}></Icon>
+ 
+ <Icon
+ size={70}
+ name={Platform.OS === 'android' ? 'heart-outline' : 'ios-list'}></Icon>
+ <Icon
+ size={70}
+ name={Platform.OS === 'android' ? 'heart-dislike-outline' : 'ios-list'}></Icon>
+ <Button>Submit</Button>
+ </View>
     
-);
+);<ion-icon name="heart-dislike-outline"></ion-icon>
 
     
 }
