@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "562118177567",
+    "project_id": "chat-78d4b",
+    "storage_bucket": "chat-78d4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562118177567:android:a2717b5608b50ece31762a",
+        "android_client_info": {
+          "package_name": "com.mansi98.sidemnueex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562118177567-a4s236rcc9sf5seacldsfr38jkl3o0ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe3yu26Umg9m3qccIoLGQfiIryNaqGneI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562118177567-a4s236rcc9sf5seacldsfr38jkl3o0ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
